@@ -1,23 +1,34 @@
-import React from 'react';
+import React, { FC, useState } from 'react';
 
 import styles from './Level.module.scss';
 
-export const Level = () => {
+import { useSelector } from 'react-redux';
+import { RootState } from 'features/store';
+import { userState } from 'features/user/userSlice';
+
+export const Level: FC = () => {
+	const { user } = useSelector<RootState, userState>(state => state.user);
+
+	const [currentLevel] = useState<number | undefined>(user?.currentLevel);
+
 	return (
 		<div className={styles.level}>
 			<p>
-				1 <span>lvl</span>
+				{user?.currentLevel} <span>lvl</span>
 			</p>
 
 			<div className={styles.progress}>
-				<div className={styles.activeProgress}></div>
+				<div
+					style={{ width: `${user?.experience}%` }}
+					className={styles.activeProgress}
+				></div>
 			</div>
 
 			<p>
-				2 <span>lvl</span>
+				{typeof currentLevel === 'number' && currentLevel + 1} <span>lvl</span>
 			</p>
 
-			<p className={styles.exp}>10/100</p>
+			<p className={styles.exp}>{user?.experience}/100</p>
 		</div>
 	);
 };

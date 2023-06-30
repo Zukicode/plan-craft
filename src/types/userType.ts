@@ -5,6 +5,7 @@ export interface IUser {
 		name: string;
 		needLevel: number;
 		image: string;
+		headImage: string;
 	};
 	currentLevel: number;
 	allTasks: number;
