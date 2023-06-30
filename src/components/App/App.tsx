@@ -15,8 +15,9 @@ import { RootState } from 'features/store';
 import { selectTheme, themeState } from 'features/theme/themeSlice';
 
 import { deleteFirstSymbol } from 'utils/activeSideBar';
-import { userState } from 'features/theme/userSlice';
+import { setUser, userState } from 'features/user/userSlice';
 import { Begin } from 'pages/Begin/Begin';
+import { IUser } from 'types/userType';
 
 export const App = () => {
 	const [activeDir, setActiveDir] = useState<string>('inbox');
@@ -41,6 +42,13 @@ export const App = () => {
 
 		setActiveDir(deleteFirstSymbol(location.pathname));
 	}, [location, navigate]);
+
+	useEffect(() => {
+		if (localStorage.getItem('user')) {
+			const activeUser: any = localStorage.getItem('user');
+			dispatch(setUser(JSON.parse(activeUser)));
+		}
+	}, []);
 
 	useEffect(() => {
 		if (localStorage.getItem('activeTheme')) {
