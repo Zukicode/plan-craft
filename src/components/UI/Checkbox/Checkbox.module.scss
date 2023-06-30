@@ -1,0 +1,30 @@
+.checkbox {
+	width: 20px;
+	height: 20px;
+	border: 2px solid var(--color-ui);
+	border-radius: 20px;
+	cursor: pointer;
+	transition: all 0.4s;
+
+	&:hover {
+		transition: all 0.4s;
+		background-color: var(--color-ui);
+
+		span {
+			transition: all 0.4s;
+			color: #ffffff;
+			opacity: 1;
+		}
+	}
+
+	span {
+		transition: all 0.4s;
+		color: var(--color-ui);
+		position: relative;
+		top: 0;
+		left: 2.5px;
+		font-size: 13px;
+		color: var(--color-bg-second);
+		opacity: 0;
+	}
+}

@@ -1,0 +1,39 @@
+.task {
+	width: 100%;
+	max-width: 650px;
+	background-color: var(--color-bg-second);
+	padding: 10px;
+	border: 2px solid var(--color-divider);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+
+	p {
+		color: var(--color-text);
+	}
+
+	.buttons {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+
+		.delete {
+			width: 25px;
+			height: 25px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background: none;
+			cursor: pointer;
+			border: none;
+			color: var(--color-ui);
+			font-size: 30px;
+			gap: 2px;
+
+			svg {
+				stroke-width: 0;
+			}
+		}
+	}
+}
