@@ -8,12 +8,7 @@ export interface taskState {
 }
 
 const initialState: taskState = {
-	tasks: [
-		{
-			id: 0,
-			goal: 'Create typescirpt project',
-		},
-	],
+	tasks: [],
 	todayTasks: [],
 };
 
