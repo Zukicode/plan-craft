@@ -15,7 +15,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
 	<React.StrictMode>
-		<BrowserRouter basename='plan-craft'>
+		<BrowserRouter>
 			<Provider store={store}>
 				<App />
 			</Provider>
