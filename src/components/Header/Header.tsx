@@ -1,4 +1,4 @@
-import { FC, useState, useEffect } from 'react';
+import { FC, useEffect, useState } from 'react';
 
 import styles from './Header.module.scss';
 
@@ -9,9 +9,9 @@ import logoImage from 'assets/logo.svg';
 import { useNavigate } from 'react-router-dom';
 import { INBOX_ROUTE, PROFILE_ROUTE } from 'routes/routes';
 
-import { useSelector } from 'react-redux';
 import { RootState } from 'features/store';
 import { userState } from 'features/user/userSlice';
+import { useSelector } from 'react-redux';
 
 interface HeaderProps {
 	handleChangeMobilMenu: (value: boolean) => void;
@@ -28,8 +28,6 @@ export const Header: FC<HeaderProps> = ({ handleChangeMobilMenu }) => {
 	useEffect(() => {
 		setCurrentLevel(user?.currentLevel);
 	}, [user?.currentLevel]);
-
-	console.log(user);
 
 	return (
 		<div className={styles.header}>

@@ -1,10 +1,10 @@
-import React, { FC, useState } from 'react';
+import { FC, useState } from 'react';
 
 import styles from './Level.module.scss';
 
-import { useSelector } from 'react-redux';
 import { RootState } from 'features/store';
 import { userState } from 'features/user/userSlice';
+import { useSelector } from 'react-redux';
 
 export const Level: FC = () => {
 	const { user } = useSelector<RootState, userState>(state => state.user);

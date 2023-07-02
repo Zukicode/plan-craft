@@ -2,13 +2,10 @@ import React, { FC, useState } from 'react';
 
 import styles from './Begin.module.scss';
 
-import steveTemp from 'assets/steve.png';
-import headChooseTemp from 'assets/head.png';
-
 import { ISkin } from 'types/skinType';
 
-import { useDispatch } from 'react-redux';
 import { setUser } from 'features/user/userSlice';
+import { useDispatch } from 'react-redux';
 
 const beginCharcters: ISkin[] = [
 	{

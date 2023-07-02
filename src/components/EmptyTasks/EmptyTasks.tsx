@@ -1,5 +1,3 @@
-import React from 'react';
-
 import styles from './EmptyTasks.module.scss';
 
 import emptyImage from 'assets/box-empty.png';

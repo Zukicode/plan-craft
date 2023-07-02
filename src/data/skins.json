@@ -1,0 +1,95 @@
+{
+	"skins": [
+		{
+			"id": 0,
+			"name": "Naruto",
+			"needLevel": 5,
+			"image": "https://lh3.googleusercontent.com/w2t8SKOFxFMBU9kVIw4arFnYUqVtLCe1eU6BHIWboTXKFGVt3Jk5od1d1Xswk1X7lErxAMuMZeFGZnhS6qsg84faoXrD9Ffmfn4D=s400",
+			"headImage": "https://superminecraftskins.com/images/uploads/skinsminecraft/000/006/258/naruto-naruto-uzumaki-head.png"
+		},
+		{
+			"id": 1,
+			"name": "Sasuke",
+			"needLevel": 5,
+			"image": "https://lh3.googleusercontent.com/pcvwttSAXgEzMEYHUolMiS9db7IFLLDNpVcKacW2AAAYu9cKd-4_Y5IlU1n654Yjy4wa6Jwwu85P0PxNEXVbNtU=s400",
+			"headImage": "https://superminecraftskins.com/images/uploads/skinsminecraft/000/061/435/sasuke-uchiha-head.png"
+		},
+		{
+			"id": 2,
+			"name": "Itachi",
+			"needLevel": 5,
+			"image": "https://lh3.googleusercontent.com/CJK1wgge5ctP65wz_G770ueJjON0vPYzYw4a2yXmLj29gl4xy1XKjMIkDXPfUVb0XGhWGZBR_-OgnsCCqrbqlnSypsovi8Dwu4s=s400",
+			"headImage": "https://ely.by/services/skins-renderer?url=https%3A%2F%2Fely.by%2Fstorage%2Fskins%2F6c4c2523ab0efc5d6a9529d42fe0f967.png&scale=18.9&renderFace=1&v=2"
+		},
+		{
+			"id": 3,
+			"name": "Herobrine",
+			"needLevel": 10,
+			"image": "https://lh3.googleusercontent.com/UzdfrBWRPdryg_F9B5lQGSHmhCIWdV1mL1umAlT-7XZTiOLkGYAOaeQGoWvhrktOebO5duUHBxGq2sgZ0i6pxg=s400",
+			"headImage": "https://lh3.googleusercontent.com/pmrYMlq3sA6x10K6YWLeMd_paVp7CZ6Gwcj6IdUvoLmmM6QmWhtV1DwTPHQ0zJUnHbUnk_PGgtvDt79CAjlOdcVCqldF9mKMvmw=s400"
+		},
+		{
+			"id": 4,
+			"name": "Villager",
+			"needLevel": 10,
+			"image": "https://lh3.googleusercontent.com/_yJUsKIBHW8ZLSBCdit0wnP42YEIS7fssKQJ-BamAsCcKoOpSO3O8ApTvXMEPEE1BzQsB-vavFSLo_7iXCPWIQ=s400",
+			"headImage": "https://www.fractalcamo.com/uploads/5/9/0/2/5902948/s189772745713394276_p7013_i157_w1500.jpeg"
+		},
+		{
+			"id": 5,
+			"name": "Anonymous",
+			"needLevel": 10,
+			"image": "https://lh3.googleusercontent.com/o0SSn1BH1VuOGSngQnKsBn-lGMvz5U93ajW8YQYCLF7vlnAEw1CC2506UVfyDzo-6X-GoLff7ELjyDoY_0mHAg=s400",
+			"headImage": "https://superminecraftskins.com/images/uploads/skinsminecraft/000/070/767/anonymous-head.png"
+		},
+		{
+			"id": 6,
+			"name": "Deadpool",
+			"needLevel": 15,
+			"image": "https://lh3.googleusercontent.com/qQvj2yFuvhcCASqZleislvJa6z7yqa_bOSeL8Qg-a3jn0Di5QuHZveGgOkvSron4BTRUQgqZmbbW_5Pq73eStLI_87A_3DWjxBI=s400",
+			"headImage": "https://superminecraftskins.com/images/uploads/skinsminecraft/000/051/906/deadpool-head.png"
+		},
+		{
+			"id": 7,
+			"name": "Iron man",
+			"needLevel": 15,
+			"image": "https://lh3.googleusercontent.com/nMM2B3jKH5I3iqZ174O3OtEqaoollL1Ff_u1gq1JzjckN4xki2ucaMnlvXOTfPBjy7PWHcT77fRCHass3tPYFw=s400",
+			"headImage": "https://media.forgecdn.net/avatars/790/566/638146022013123002.png"
+		},
+		{
+			"id": 8,
+			"name": "Flash",
+			"needLevel": 15,
+			"image": "https://lh3.googleusercontent.com/N22E7OYehSUDDO8tocwkjGujkvxvfCQuClErpL5ivYm1J6dfY0QlCLw-eKaJVDmpDhQUMWjWnMrjo0-gQoGJhw=s400",
+			"headImage": "https://superminecraftskins.com/images/uploads/skinsminecraft/000/000/830/the-flash-head.png"
+		},
+		{
+			"id": 9,
+			"name": "Midoriya",
+			"needLevel": 20,
+			"image": "https://lh3.googleusercontent.com/6RqTg2GACgZq1zajAFteMbeG-Sdm4ih7lbNXZruXbSqypbMSt-Vge7DgtsVunWMh59mX-MfgjS9TMkJ0eqlupA=s400",
+			"headImage": "https://superminecraftskins.com/images/uploads/skinsminecraft/000/005/123/izuku-midoriya-head.png"
+		},
+		{
+			"id": 10,
+			"name": "Zoro",
+			"needLevel": 20,
+			"image": "https://lh3.googleusercontent.com/s16nPw36mF6BbVhaDTwl5MTkOw4KtgzceyPBSKhODK6jy2lVLC-yNUEn3uIKZkjTjFVrKrjg1D1U144IY7uSCCr3bSiKRFvub_f_=s400",
+			"headImage": "https://superminecraftskins.com/images/uploads/skinsminecraft/000/104/835/roronoa-zoro-one-piece-head.png"
+		},
+		{
+			"id": 11,
+			"name": "Hinata",
+			"needLevel": 20,
+			"image": "https://lh3.googleusercontent.com/bdSSTiaYVJ-uPetlhkWMT9wcokWMjto1KNB5S6rNrEW6LXtTmFm4KTzMunvfC1qSaaAYAJJ_NZ9sfM-KTL6i",
+			"headImage": "https://pm1.aminoapps.com/7616/bc3b22a89815985dc74b830a01ad331c0d3e9f86r1-768-768v2_uhq.jpg'"
+		},
+		{
+			"id": 12,
+			"name": "King",
+			"needLevel": 50,
+			"image": "https://lh3.googleusercontent.com/lOfGl75Lt2pPC0YB1f5QsVpYEpjZvumhO8-z9E4hptQhMeETOsyGO_uCZZWpNZOc6_Q2mU1tkJW9RuQCZ9INxQ=s400",
+			"headImage": "https://static.planetminecraft.com/files/image/minecraft/texture-pack/2022/497/15837873-pack_xl.webp"
+		}
+	]
+}

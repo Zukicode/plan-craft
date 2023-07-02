@@ -1,12 +1,21 @@
-import { useState } from 'react';
+import { FC, useState } from 'react';
 
 import styles from './Create.module.scss';
 
 import { AiOutlinePlus } from 'react-icons/ai';
 
-export const Create = () => {
+interface CreateProps {
+	handleChangeModal: (type: boolean) => void;
+}
+
+export const Create: FC<CreateProps> = ({ handleChangeModal }) => {
 	const [isVisible, setVisible] = useState<boolean>(false);
 	const toggleMenu = () => setVisible(!isVisible);
+
+	const openCreateTaskModal = () => {
+		handleChangeModal(true);
+		setVisible(false);
+	};
 
 	return (
 		<div className={styles.createContainer}>
@@ -16,17 +25,11 @@ export const Create = () => {
 				}
 			>
 				<ul>
-					<li>
+					<li onClick={openCreateTaskModal}>
 						<span>
 							<AiOutlinePlus />
 						</span>
 						<p>New task</p>
-					</li>
-					<li>
-						<span>
-							<AiOutlinePlus />
-						</span>
-						<p>New project</p>
 					</li>
 				</ul>
 			</div>

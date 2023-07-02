@@ -2,9 +2,9 @@ import styles from './Profile.module.scss';
 
 import { Level } from 'components/Level/Level';
 
-import { useSelector } from 'react-redux';
 import { RootState } from 'features/store';
 import { userState } from 'features/user/userSlice';
+import { useSelector } from 'react-redux';
 
 export const Profile = () => {
 	const { user } = useSelector<RootState, userState>(state => state.user);
