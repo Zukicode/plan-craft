@@ -107,6 +107,7 @@
 		button:last-child {
 			background: var(--color-bg-second);
 			border: 2px solid var(--color-divider);
+			color: var(--color-text);
 
 			&:hover {
 				transition: all 0.4s;
