@@ -90,6 +90,27 @@
 			"needLevel": 50,
 			"image": "https://lh3.googleusercontent.com/lOfGl75Lt2pPC0YB1f5QsVpYEpjZvumhO8-z9E4hptQhMeETOsyGO_uCZZWpNZOc6_Q2mU1tkJW9RuQCZ9INxQ=s400",
 			"headImage": "https://static.planetminecraft.com/files/image/minecraft/texture-pack/2022/497/15837873-pack_xl.webp"
+		},
+		{
+			"id": 13,
+			"name": "ПриборкуваЧ😻",
+			"needLevel": 100,
+			"image": "https://distribution.faceit-cdn.net/images/61dca247-f6de-4901-8f83-d555e3aa721c.png?action=fit&width=800&height=1600",
+			"headImage": "https://distribution.faceit-cdn.net/images/61dca247-f6de-4901-8f83-d555e3aa721c.png?action=fit&width=800&height=1600"
+		},
+		{
+			"id": 14,
+			"name": "ДЕНИС👍",
+			"needLevel": 100,
+			"image": "https://distribution.faceit-cdn.net/images/6c86b1e2-5aa2-4f0f-8cd6-d00adf06fc24.png?action=fit&width=800&height=1600",
+			"headImage": "https://distribution.faceit-cdn.net/images/6c86b1e2-5aa2-4f0f-8cd6-d00adf06fc24.png?action=fit&width=800&height=1600"
+		},
+		{
+			"id": 14,
+			"name": "АдМіН🥀🖤",
+			"needLevel": 200,
+			"image": "https://distribution.faceit-cdn.net/images/aebdc20f-3313-4ea5-b2eb-6079f7ad8ddc.png?action=fit&width=800&height=1600",
+			"headImage": "https://distribution.faceit-cdn.net/images/aebdc20f-3313-4ea5-b2eb-6079f7ad8ddc.png?action=fit&width=800&height=1600"
 		}
 	]
 }
